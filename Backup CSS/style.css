@@ -35,6 +35,15 @@ body {
   width: 100%;
 }
 
+.header__box {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
 .nav {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -63,7 +72,7 @@ body {
 }
 
 .nav__item:not(:first-child) {
-  margin-left: 2rem;
+  margin-left: 1.5rem;
 }
 
 .nav__link:link, .nav__link:active, .nav__link:visited {
@@ -72,4 +81,10 @@ body {
   text-transform: capitalize;
   color: #263546;
   padding: 2rem;
+  -webkit-transition: .3s;
+  transition: .3s;
+}
+
+.nav__link:link:hover, .nav__link:active:hover, .nav__link:visited:hover {
+  color: #0078FF;
 }
