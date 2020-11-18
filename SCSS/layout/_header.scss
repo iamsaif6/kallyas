@@ -1,5 +1,5 @@
 .header{
-    height: 70vh;
+
     position: relative;
 
     &__after{
@@ -13,23 +13,46 @@
     &__box{
         display: flex;
         justify-content: space-between;
+        align-items: center;
+        padding-top: 8rem;
     }
 
     &__text{
-
+        flex:50%;
     }
 
     &__title{
-
+        color: #2B3847;
+        font-size: 4.4rem;
+        font-weight: 400;
+        text-transform: capitalize;
+        line-height: 1.4;
+        margin-bottom: 1.5rem;
     }
 
     &__imgbox{
-
+        flex:50%;
     }
 
     &__img{
-
+        width: 100%;
+        max-width: 70rem;
     }
+
+    &__appbtn{
+        margin-top: 3rem;
+        display: flex;
+
+        a:first-child{
+            margin-right: 2rem;
+        }
+    }
+
+    &__appimg{
+        width: 100%;
+    }
+
+
 
 
 }

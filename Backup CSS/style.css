@@ -15,6 +15,13 @@ html {
 
 body {
   font-family: 'Poppins', sans-serif;
+  overflow-x: hidden;
+}
+
+.description {
+  color: #7E7E7E;
+  font-size: 1.6rem;
+  font-weight: 300;
 }
 
 .row {
@@ -23,7 +30,6 @@ body {
 }
 
 .header {
-  height: 70vh;
   position: relative;
 }
 
@@ -42,6 +48,51 @@ body {
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding-top: 8rem;
+}
+
+.header__text {
+  -webkit-box-flex: 50%;
+      -ms-flex: 50%;
+          flex: 50%;
+}
+
+.header__title {
+  color: #2B3847;
+  font-size: 4.4rem;
+  font-weight: 400;
+  text-transform: capitalize;
+  line-height: 1.4;
+  margin-bottom: 1.5rem;
+}
+
+.header__imgbox {
+  -webkit-box-flex: 50%;
+      -ms-flex: 50%;
+          flex: 50%;
+}
+
+.header__img {
+  width: 100%;
+  max-width: 70rem;
+}
+
+.header__appbtn {
+  margin-top: 3rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.header__appbtn a:first-child {
+  margin-right: 2rem;
+}
+
+.header__appimg {
+  width: 100%;
 }
 
 .nav {
