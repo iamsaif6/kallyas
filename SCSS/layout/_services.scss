@@ -1,0 +1,37 @@
+.services{
+
+    padding-bottom: 10rem;
+
+    &__flex{
+        display: flex;
+        align-items: center;
+    }
+
+    &__box{
+
+        flex: 20%;
+        &:not(:first-child){
+            margin-left: 6rem;
+            text-align: center;
+        }
+    }
+
+    &__img{
+        width: 100%;
+    }
+
+    &__heading{
+        text-transform: capitalize;
+        font-size: 1.6rem;
+        color: #263546;
+        font-weight: 500;
+        text-transform: capitalize;
+        margin-top: 1.8rem;
+    }
+
+    .description{
+        margin: 2.5rem 0 2.5rem 0;
+    }
+
+
+}
