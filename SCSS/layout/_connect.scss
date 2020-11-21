@@ -30,6 +30,10 @@
 
     &__imgbox2{
         flex: 0 0 35%;
+        align-self: stretch;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
 
         .description{
             margin: 3rem 0 3rem 0;
