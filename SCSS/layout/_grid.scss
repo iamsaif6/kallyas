@@ -1,4 +1,12 @@
 .row{
     max-width: 114rem;
+    width: 95%;
     margin: 0 auto ;
+
+    &--fullwidth{
+        max-width: 125rem;
+        width: 95%;
+        margin: 0 auto;
+    }
+
 }

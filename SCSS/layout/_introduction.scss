@@ -1,0 +1,31 @@
+.introduction{
+
+    background-image:linear-gradient(to right , rgba(12, 133, 254, 0.925) , rgba(11, 189, 254, 0.932)) , url(../../src/img/introduction.jpg);
+    background-size: cover;
+    background-position: bottom center;
+    text-align: center;
+    padding-top: 8rem;
+    margin-bottom: 15rem;
+
+    .section__heading{
+        max-width: 36rem;
+        margin: 0 auto;
+    }
+
+    .description{
+        max-width: 75rem;
+        margin: 3rem auto;
+
+    }
+
+    &__video{
+        max-width: 60rem;
+        margin: 0 auto;
+        transform: translateY(30%);
+        margin-top: -8rem;
+        iframe{
+            width: 100%;
+            border-radius: 10px;
+        }
+    }
+}

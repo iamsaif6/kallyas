@@ -1,0 +1,33 @@
+.social{
+
+    padding-bottom: 20rem;
+    position: relative;
+
+    &__after{
+        position: absolute;
+        top: 0;
+        left: 0;
+        transform: translateY(-50%);
+        z-index: -1;
+        width: 100%;
+        max-width: 50rem;
+    }
+
+    &__flex{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    &__imgbox{
+        flex: 0 0 60%;
+    }
+
+    &__textbox{
+        flex: 0 0 35%;
+    }
+
+    &__img{
+        width: 100%;
+    }
+}      

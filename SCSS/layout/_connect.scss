@@ -1,0 +1,47 @@
+.connect{
+
+    margin-bottom: 10rem;
+    position: relative;
+
+    &__after{
+        position: absolute;
+        top: 0;
+        right: 0;
+        width: 100%;
+        max-width: 35rem;
+        transform: translateY(-25%);
+        z-index: -1;
+    }
+
+
+    &__flex{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    
+    &__textbox{
+        flex: 0 0 35%;
+    }
+
+    &__imgbox{
+
+    }
+
+    &__imgbox2{
+        flex: 0 0 35%;
+
+        .description{
+            margin: 3rem 0 3rem 0;
+        }
+    }
+
+    &__img{
+        width: 100%;
+    }
+
+
+    &__img2{
+        width: 100%;
+    }
+}

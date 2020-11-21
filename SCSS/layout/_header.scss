@@ -2,6 +2,10 @@
 
     position: relative;
 
+    .row{
+        max-width: 100rem;
+        
+    }
     &__after{
         position: absolute;
         top: 0;
@@ -14,8 +18,7 @@
         display: flex;
         justify-content: space-between;
         align-items: center;
-        padding-top: 8rem;
-        padding-bottom: 30rem;
+        padding: 8rem 0rem 30rem 0rem;
     }
 
     &__text{

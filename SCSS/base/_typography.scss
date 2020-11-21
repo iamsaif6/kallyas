@@ -4,19 +4,47 @@
     font-size: 1.5rem;
     font-weight: 300;
     line-height: 2;
+
+    &--light{
+        color: #fff;
+    }
 }
 
 
 .section__heading{
-    text-transform: capitalize;
     font-size: 2.7rem;
     color: #263546;
     font-weight: 600;
     line-height: 1.7;
 
 
-    &--white{
+    &--light{
         color: #fff;
     }
 }
 
+.secondary__heading{
+    font-weight: 200;
+    font-size: 3.5rem;
+    color: #2B3847;
+    margin-bottom: 2.5rem;
+    position: relative;
+
+    &--after__left::after,
+    &--after__right::after{
+        position: absolute;
+        top: -2rem;
+        left: 0;
+        content: '';
+        width: 4rem;
+        height: .6rem;
+        background-image: linear-gradient(to right , #2EC1FB , #2278F9);
+        border-radius: 50px;
+        box-shadow: 0 0rem 2rem #2ec1fbc2;
+    }
+
+    &--after__right::after{
+        left: auto;
+        right: 0;
+    }
+}
