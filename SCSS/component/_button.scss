@@ -42,4 +42,21 @@
             box-shadow: 0px 0 6rem .7rem #00bfff6b
         }
     }
+
+
+    &--price{
+        padding: 1rem 2rem;
+        box-shadow: 0 0 3rem rgba(0, 0, 0, 0.145);
+    }
+
+    &--white{
+        background-image: none;
+        background-color: #fff;
+        color: #0082FF;
+        box-shadow: 0 0 3rem rgba(255, 255, 255, 0.232);
+
+        &::after{
+            background-image: none;
+        }
+    }
 }

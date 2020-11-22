@@ -1,5 +1,7 @@
 .pricing{
 
+    margin-bottom: 10rem;
+
     &__textbox{
         text-align: center;
         max-width: 55rem;
@@ -9,5 +11,129 @@
     .section__heading{
         margin-bottom: 2rem;
     }
+
+    &__flex{
+        margin-top: 10rem;
+        display: flex;
+    }
+
+    &__box{
+
+        flex: 0 0 32%;
+        border-radius: 10px;
+        align-self: center;
+        position: relative;
+        z-index: 2;
+
+        &:first-child{
+            margin-right: -2rem;
+        }
+
+        &:last-child{
+            margin-left: -2rem;
+        }
+
+
+        &--large{
+
+            position: relative;
+            z-index: 9;
+            flex: 0 0 36%;
+            
+            .pricing__head{
+                background-color: #fff;
+                border-bottom: none;
+                margin: 0;
+                padding: 3rem 5rem 3rem 5rem;
+                border-radius: 10px 10px 0px 0px;
+            }
+
+            .pricing__body{
+                background-image: linear-gradient(10deg , #0079FF , #00C1FF);
+                border-radius: 0 0px 10px 10px;
+            }
+
+            .pricing__item{
+                color: #fff;
+
+                &::before{
+                    color: #fff;
+                }
+            }
+        }
+    }
+
+    &__head{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 3rem 0rem 3rem 0rem;
+        margin: 0 5rem 0 5rem;
+        border-bottom: 2px solid #DDDDDD;
+    }
+
+
+    &__body{
+        padding: 4rem 5rem 5rem 5rem;
+
+    }
+
+    &__title{
+        color: #ADACAC;
+        text-transform: capitalize;
+        font-size: 3.4rem;
+        font-weight: 700;
+
+        &--colored{
+            color: #00ABFF;
+        }
+    }
+
+
+    &__price{
+        font-size: 2rem;
+        color: #000;
+        font-weight: 600;
+
+        &--colored{
+            color: #33CC66;
+        }
+    }
+
+    &__text{
+        font-size: 1.3rem;
+        color: #5D5D5D;
+        font-weight: 500;
+        margin-bottom: 4rem;
+    }
+
+    &__list{
+        list-style: none;
+        margin-bottom: 3rem;
+    }
+
+    &__item{
+        font-size: 1.3rem;
+        color: #5D5D5D;
+        font-weight: 500;
+        margin-bottom: 1.3rem;
+        padding-left: 2.5rem;
+        position: relative;
+
+        &::before{
+            font-family: "Font Awesome 5 Free"; 
+            font-weight: 900; 
+            content: "\f00c";
+            left: 0;
+            top: 50%;
+            transform: translateY(-50%);
+            position: absolute;
+            background-image: linear-gradient(to right , #0073FF, #00C5FF);
+            background-clip: text;
+            color: transparent;
+        }
+    }
+
+
 
 }
