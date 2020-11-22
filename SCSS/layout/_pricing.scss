@@ -127,12 +127,13 @@
             content: "\f00c";
             left: 0;
             top: 50%;
+            -webkit-background-clip:text !important;
             transform: translateY(-50%);
             position: absolute;
             background-image: linear-gradient(to right , #0073FF, #00C5FF);
             background-clip: text;
             color: transparent;
-            -webkit-background-clip:text !important;
+            
         }
     }
 

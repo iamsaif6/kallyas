@@ -692,6 +692,7 @@ body {
   content: "\f00c";
   left: 0;
   top: 50%;
+  -webkit-background-clip: text !important;
   -webkit-transform: translateY(-50%);
           transform: translateY(-50%);
   position: absolute;
