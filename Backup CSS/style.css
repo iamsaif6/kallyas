@@ -169,7 +169,7 @@ body {
 }
 
 .header .row {
-  max-width: 100rem;
+  max-width: 95rem;
 }
 
 .header__after {
@@ -241,7 +241,7 @@ body {
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
-  padding: 6rem 0 2rem 0;
+  padding: 5rem 0 2rem 0;
 }
 
 .nav__logo {
@@ -385,13 +385,13 @@ body {
   position: absolute;
   right: 0;
   top: 0;
-  width: 30rem;
+  width: 40rem;
   height: 12rem;
   background-image: -webkit-gradient(linear, left top, right top, from(#2EC2F8), to(#237EF9));
   background-image: linear-gradient(to right, #2EC2F8, #237EF9);
   -webkit-transform: translate(50%, -50%);
           transform: translate(50%, -50%);
-  border-radius: 30px 0 0 30px;
+  border-radius: 30px 30px;
   z-index: -1;
   -webkit-box-shadow: 0 0rem 3rem #2ec1fb54;
           box-shadow: 0 0rem 3rem #2ec1fb54;
@@ -414,8 +414,7 @@ body {
   -webkit-transform: translateY(-50%);
           transform: translateY(-50%);
   z-index: -1;
-  width: 100%;
-  max-width: 50rem;
+  width: 30%;
 }
 
 .social__flex {
@@ -712,11 +711,17 @@ body {
 }
 
 .footer {
-  padding: 13rem 7rem 3rem 7rem;
-  background-image: url(../../src/img/footer__bg.png);
-  background-size: 110%;
-  background-position: bottom center;
-  background-repeat: no-repeat;
+  padding: 10rem 7rem 2rem 7rem;
+  position: relative;
+}
+
+.footer__bg {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 110%;
+  z-index: -1;
 }
 
 .footer__flex {
@@ -726,6 +731,8 @@ body {
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
+  max-width: 95rem;
+  margin: 0 auto;
 }
 
 .footer__col--large {
@@ -736,7 +743,7 @@ body {
 
 .footer__title {
   color: #263546;
-  font-weight: 600;
+  font-weight: 500;
   font-size: 1.5rem;
   text-transform: capitalize;
   margin-bottom: 1.4rem;
@@ -753,7 +760,7 @@ body {
 .footer__link:link, .footer__link:visited {
   color: #808080;
   font-size: 1.4rem;
-  font-weight: 400;
+  font-weight: 300;
   text-decoration: none;
   display: inline-block;
   padding: .45rem 0;
