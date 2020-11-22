@@ -572,6 +572,9 @@ body {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
 }
 
 .pricing__box {
@@ -697,4 +700,77 @@ body {
   background-image: linear-gradient(to right, #0073FF, #00C5FF);
   background-clip: text;
   color: transparent;
+}
+
+.pricing__bottom {
+  margin-top: 13rem;
+}
+
+.pricing__bottom .btn {
+  padding: 1.5rem 4rem;
+  margin-top: 2rem;
+}
+
+.footer {
+  padding: 13rem 7rem 3rem 7rem;
+  background-image: url(../../src/img/footer__bg.png);
+  background-size: 110%;
+  background-position: bottom center;
+  background-repeat: no-repeat;
+}
+
+.footer__flex {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.footer__col--large {
+  -webkit-box-flex: 0;
+      -ms-flex: 0 0 40%;
+          flex: 0 0 40%;
+}
+
+.footer__title {
+  color: #263546;
+  font-weight: 600;
+  font-size: 1.5rem;
+  text-transform: capitalize;
+  margin-bottom: 1.4rem;
+}
+
+.footer__list {
+  list-style: none;
+}
+
+.footer__item {
+  text-transform: capitalize;
+}
+
+.footer__link:link, .footer__link:visited {
+  color: #808080;
+  font-size: 1.4rem;
+  font-weight: 400;
+  text-decoration: none;
+  display: inline-block;
+  padding: .45rem 0;
+  -webkit-transition: .3s;
+  transition: .3s;
+}
+
+.footer__link:link:hover, .footer__link:visited:hover {
+  color: #0074FF;
+}
+
+.footer__bottom {
+  margin-top: 2rem;
+}
+
+.footer__bottom-text {
+  color: #263546;
+  font-weight: 400;
+  font-size: 1.3rem;
 }

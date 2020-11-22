@@ -15,6 +15,7 @@
     &__flex{
         margin-top: 10rem;
         display: flex;
+        justify-content: center;
     }
 
     &__box{
@@ -134,6 +135,14 @@
         }
     }
 
+    &__bottom{
+        margin-top: 13rem;
+
+        .btn{
+            padding: 1.5rem 4rem;
+            margin-top: 2rem;
+        }
+    }
 
 
 }

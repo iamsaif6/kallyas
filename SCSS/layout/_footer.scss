@@ -1,0 +1,65 @@
+.footer{
+
+    padding: 13rem 7rem 3rem 7rem;
+    background-image: url(../../src/img/footer__bg.png);
+    background-size: 110%;
+    background-position: bottom center;
+    background-repeat: no-repeat;
+
+    &__flex{
+        display: flex;
+        justify-content: space-between;
+    }
+
+    &__col{
+
+        &--large{
+            flex: 0 0 40%;
+        }
+        
+    }
+
+    &__title{
+        color: #263546;
+        font-weight: 600;
+        font-size: 1.5rem;
+        text-transform: capitalize;
+        margin-bottom: 1.4rem;
+    }
+
+    &__list{
+        list-style: none;
+    }
+
+    &__item{
+        text-transform: capitalize;
+    }
+
+    &__link:link,
+    &__link:visited{
+        color: #808080;
+        font-size: 1.4rem;
+        font-weight: 400;
+        text-decoration: none;
+        display: inline-block;
+        padding: .45rem 0;
+        transition: .3s;
+
+        &:hover{
+            color: #0074FF;
+        }
+    }
+
+    &__bottom{
+
+        margin-top: 2rem;
+
+        &-text{
+            color: #263546;
+            font-weight: 400;
+            font-size: 1.3rem;
+        }
+    
+    }
+
+}
