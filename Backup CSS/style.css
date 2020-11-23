@@ -30,6 +30,16 @@ html {
           box-sizing: border-box;
 }
 
+html ::-moz-selection {
+  background-color: #555;
+  color: #fff;
+}
+
+html ::selection {
+  background-color: #555;
+  color: #fff;
+}
+
 body {
   font-family: 'Poppins', sans-serif;
   overflow-x: hidden;

@@ -14,6 +14,10 @@
 html{
     font-size: 62.5%;
     box-sizing: border-box;
+    ::selection{
+        background-color: #555;
+        color: #fff;
+    }
 }
 
 
@@ -21,3 +25,5 @@ body{
     font-family: 'Poppins', sans-serif;
     overflow-x: hidden;
 }
+
+  
