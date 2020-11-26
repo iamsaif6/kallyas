@@ -3,6 +3,10 @@
     padding-bottom: 18rem;
     position: relative;
 
+    @include respond(700px){
+        padding-bottom: 14rem;
+    }
+
     &__after{
         position: absolute;
         top: 0;

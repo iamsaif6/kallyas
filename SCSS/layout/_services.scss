@@ -17,6 +17,10 @@
         @include respond(1100px){
             align-items: start;
         }
+
+        @include respond(500px){
+            justify-content: center;
+        }
     }
 
     &__box{
@@ -29,6 +33,11 @@
 
             @include respond(900px){
                 margin-left: 0rem;
+            }
+
+            @include respond(500px){
+                flex: 0 0 45%;
+                margin-bottom: 2rem;
             }
         }
 

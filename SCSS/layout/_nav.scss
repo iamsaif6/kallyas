@@ -54,5 +54,125 @@
         }
     }
 
+    &__trigger-wrap{
+        display: flex;
+        justify-content: flex-end;
+        align-items: center;
+        cursor: pointer;
+        display: none;
+        height: 5rem;
+        width: 5rem;
+        z-index: 999;
+
+        @include respond(900px){
+            display: flex;
+            cursor: pointer;
+        }
+
+        &.active{
+           
+        }
+    }   
+
+    &__trigger{
+        width: 5rem;
+        height: 2px;
+        display: block;
+        background-color: #fff;
+        position: relative;
+
+        &.active{
+            position: fixed;
+            background-color: transparent;
+
+            &::after{
+                transform: rotate(45deg);
+                top: auto;
+            }
+
+            &::before{
+                transform: rotate(-45deg);
+                bottom: auto;
+            }
+        }
+
+
+        &::after,
+        &::before{
+            position: absolute;
+            left: 0;
+            height: 100%;
+            width: 100%;
+            content: '';
+            background-color: #fff;
+            top: 8px;
+            transition: all .3s;
+        }
+
+        &::before{
+            top: auto;
+            bottom: 8px;
+        }
+    }
+
+
+}
+
+
+// Offset Navbar
+
+
+.offset{
+
+    &__nav {
+        position: fixed;
+        right: -100%;
+        top: 0;
+        z-index: 99;
+        height: 100vh;
+        width: 70%;
+        max-width: 70rem;
+        background-image: linear-gradient(to right , #00C4FF , #0075FF);
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        transition : .4s;
+        opacity: 0;
+
+        @include respond(500px){
+            width: 100%;
+        }
+
+        &.active{
+            opacity: 1;
+            right: 0;
+        }
+
+
+        &-item{
+
+        }
+
+        &-list{
+            list-style: none;
+        }
+
+        &-link:link,
+        &-link:visited{
+            text-transform: capitalize;
+            font-size: 2rem;
+            font-weight: 400;
+            text-decoration: none;
+            color: #fff;
+            display: inline-block;
+            padding: 1rem 0;
+            transition: .3s all;
+
+            &:hover{
+                color: #222;
+            }
+        } 
+    }
+
 
 }

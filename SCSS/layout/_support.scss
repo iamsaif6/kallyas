@@ -1,6 +1,10 @@
 .support{
     padding-bottom: 16rem;
 
+    @include respond(700px){
+        padding-bottom: 13rem;
+    }
+
     &__flex{
         display: flex;
         max-width: 90rem;
@@ -9,6 +13,18 @@
         background-image: linear-gradient(to right , #00C6FF , #0072FF);
         border-radius: 50px;
         box-shadow: 2px 3rem 7rem -2rem rgba(0, 162, 255, 0.788);
+
+        @include respond(700px){
+            padding: 4rem;
+        }
+
+        @include respond(600px){
+            padding: 4rem 2rem;
+        }
+
+        @include respond(500px){
+            flex-direction: column;
+        }
     }
 
     &__box{
@@ -17,6 +33,19 @@
 
         &:not(:first-child){
             border-left: 1px solid #D9E4E8;
+
+            @include respond(500px){
+                border-left: none;
+            }
+        }
+
+        @include respond(600px){
+            padding: 0 3rem;
+        }
+
+        
+        @include respond(500px){
+            margin-bottom: 3rem;
         }
     }
 

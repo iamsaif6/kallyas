@@ -32,6 +32,11 @@
         margin-bottom: 5rem;
         position: relative;
 
+        @include respond(800px){
+            align-self: stretch;
+        }
+
+
         &:first-child{
             margin-right: -2rem;
 

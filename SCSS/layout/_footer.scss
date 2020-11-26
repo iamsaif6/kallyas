@@ -30,12 +30,27 @@
         justify-content: space-between;
         max-width: 95rem;
         margin: 0 auto;
+
+        @include respond(800px){
+            flex-wrap: wrap;
+            justify-content: space-between;
+            
+        }
     }
 
     &__col{
 
+        @include respond(800px){
+            flex: 0 0 33%;
+            margin-bottom: 3rem;
+        }
+
         &--large{
             flex: 0 0 40%;
+
+            @include respond(800px){
+                flex: 0 0 100%;
+            }
         }
         
     }

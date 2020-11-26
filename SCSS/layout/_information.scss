@@ -9,10 +9,18 @@
         align-items: center;
         justify-content: space-between;
 
+        @include respond(700px){
+            flex-direction: column;
+        }
+
     }
 
     &__textbox{
         flex:0 0 35%;
+
+        @include respond(700px){
+           margin-bottom: 5rem;
+        }
 
         @include respond(1100px){
             flex: 0 0 40%;
