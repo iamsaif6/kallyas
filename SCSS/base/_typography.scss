@@ -30,6 +30,10 @@
     margin-bottom: 2.5rem;
     position: relative;
 
+    @include respond(800px){
+        font-size: 3rem;
+    }
+
     &--after__left::after,
     &--after__right::after{
         position: absolute;

@@ -20,11 +20,15 @@
     }
 
     &__imgbox{
-        flex: 0 0 60%;
+        flex: 0 0 55%;
     }
 
     &__textbox{
         flex: 0 0 35%;
+
+        @include respond(1100px){
+            flex: 0 0 40%;
+        }
     }
 
     &__img{

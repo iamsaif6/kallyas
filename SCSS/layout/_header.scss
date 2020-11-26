@@ -2,6 +2,14 @@
 
     position: relative;
 
+    @include respond(1200px){
+        background-image: linear-gradient(to left , #0074FF , #00C5FF);
+
+        .description{
+            color: #fff;
+        }
+    }
+
     .row{
         max-width: 95rem;
         
@@ -12,6 +20,10 @@
         left: 0;
         z-index: -99;
         width: 100%;
+
+        @include respond(1200px){
+            display: none;
+        }
     }
 
     &__box{
@@ -19,6 +31,11 @@
         justify-content: space-between;
         align-items: center;
         padding: 8rem 0rem 30rem 0rem;
+
+        @include respond(1200px){
+            padding-bottom: 10rem;
+            padding-top: 5rem;
+        }
     }
 
     &__text{
@@ -32,6 +49,14 @@
         text-transform: capitalize;
         line-height: 1.4;
         margin-bottom: 1.5rem;
+
+        @include respond(1200px){
+            color: #fff;
+        }
+
+        @include respond(700px){
+            font-size: 3.5rem;
+        }
     }
 
     &__imgbox{
