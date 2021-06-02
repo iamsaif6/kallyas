@@ -1,5 +1,9 @@
 # Kallyas Multipage Website
 
+# Screenshot
+
+<img src="https://github.com/iamsaif6/kallyas/raw/master/kallyas.png" />
+
 ## Tools and Technology Used :
 
 - VS Code
