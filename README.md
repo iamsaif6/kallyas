@@ -2,7 +2,7 @@
 <br>
 
 
-<img src="https://github.com/iamsaif6/kallyas/blob/master/kallyas.gif" width="800px" />
+<img src="https://github.com/iamsaif6/kallyas/blob/master/kallyas.gif" width="800px" height="900px" />
 
 > ## For live preview : [Click Here](https://iamsaif6.github.io/kallyas/ "Kallyas")
 <br>
