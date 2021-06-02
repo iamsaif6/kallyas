@@ -1,7 +1,7 @@
 # Kallyas Multipage Website
 
 
-<img src="https://github.com/iamsaif6/kallyas/blob/master/Screenshot%202021-06-02%20at%2012-06-48%20Kallyas%20Multi%20Page%20Website.png" width="800px" />
+<img src="https://github.com/iamsaif6/kallyas/blob/master/Screenshot%202021-06-02%20at%2012-06-48%20Kallyas%20Multi%20Page%20Website.png" width="700px" />
 
 ## Tools and Technology Used :
 
