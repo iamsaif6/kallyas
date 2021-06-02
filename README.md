@@ -1,9 +1,11 @@
 # Kallyas Multipage Website
+<br>
 
 
 <img src="https://github.com/iamsaif6/kallyas/blob/master/Screenshot%202021-06-02%20at%2012-06-48%20Kallyas%20Multi%20Page%20Website.png" width="700px" />
 
-## For live preview : [Click Here](https://iamsaif6.github.io/kallyas/ "Kallyas")
+> ## For live preview : [Click Here](https://iamsaif6.github.io/kallyas/ "Kallyas")
+<br>
 
 ## Tools and Technology Used :
 
@@ -14,7 +16,7 @@
 - JavaScript
 
 
-## Check out my other project here : [https://iamsaif6.github.io](https://iamsaif6.github.io/ "Portfolio")
+### Check out my other project here : [https://iamsaif6.github.io](https://iamsaif6.github.io/ "Portfolio")
 
 
 
